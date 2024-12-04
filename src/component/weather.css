@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.weather {
+    place-self: center;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px; /* Adds spacing below the search bar */
+}
+
+.search-bar input {
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 0 25px; /* Equal padding on left and right */
+    font-size: 18px;
+    width: 250px; /* Consistent width for the input */
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #333; /* Improved contrast */
+    font-family: 'Poppins', sans-serif; /* Matches overall font */
+}
+
+.search-bar img {
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    background-color: rgba(255, 255, 255, 0.6);
+        cursor: pointer; /* Indicates interactivity */
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Adds spacing */
+}
+
+.body h1 {
+    color: #ffffff;
+    font-size: 55px;
+    margin: 0; /* Removes default margin for better alignment */
+}
+
+.body p {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 5px 0; /* Reduces spacing */
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px; /* Adds spacing above the block */
+    color: #ffffff;
+}
+
+.detail-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centers items vertically */
+    gap: 10px; /* Adds spacing between icon and text */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Subtle background for each block */
+    border-radius: 10px; /* Consistent rounded corners */
+}
+
+.detail-block img {
+    height: 30px; /* Adjusted size for better visibility */
+    width: 30px;
+}
+
+.detail-block .texti {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds spacing between text lines */
+    font-size: 18px;
+    text-align: left;
+}
